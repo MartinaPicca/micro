@@ -1,10 +1,10 @@
 spring: 
     datasource:
-      url:  jdbc:mongodb+srv://martina10:<corso10>@cluster0.xltlu.mongodb.net/corso10?retryWrites=true&w=majority
+      url:  jdbc:mongodb+srv://[martina10:corso10@]27017[/[corso10]]
       
       
 server:
-   port: 27015
+   port: 27017
 
 
 
