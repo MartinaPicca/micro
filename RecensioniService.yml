@@ -1,7 +1,7 @@
 spring: 
     datasource:
       mongodb: 
-      url: mongodb+srv://martina10:<corso10>@cluster0.xltlu.mongodb.net/corso10?retryWrites=true&w=majority
+      uri: mongodb+srv://martina10:<corso10>@cluster0.xltlu.mongodb.net/corso10?retryWrites=true&w=majority
       username: martina10
       password: corso10
       
