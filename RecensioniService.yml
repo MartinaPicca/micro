@@ -1,9 +1,7 @@
 spring: 
     datasource:
-      driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://212.131.189.19:30016/corso10
-      username: Martina
-      password: Corso10!
+      url:  mongodb+srv://martina10:<corso10>@cluster0.xltlu.mongodb.net/corso10?retryWrites=true&w=majority
+      
       
 server:
    port: 8081
