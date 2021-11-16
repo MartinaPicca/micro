@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://martina10:corso10d@localhost:27017/corso10
+      url: mongodb://martina10:corso10d@localhost:27017/corso10
       
       
 server:
