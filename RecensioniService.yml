@@ -1,12 +1,12 @@
-spring: 
-    datasource:
-      mongodb: 
+
+spring:
+  data:
+    mongodb:
       uri: mongodb+srv://martina10:corso10@cluster0.xltlu.mongodb.net/corso10?retryWrites=true&w=majority
       port: 27017
       auto-index-creation: true
-      
 server:
-   port: 8081
+  port: 8081
 
 
 
