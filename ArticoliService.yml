@@ -1,10 +1,13 @@
 spring: 
-    datasource:
+    datasource: 
       driver-class-name: com.mysql.jdbc.Driver
       url: jdbc:mysql://212.131.189.19:30016/corso10
       username: Martina
       password: Corso10!
-      
+    jpa:
+      hibernate.ddl-auto: update
+      generate-ddl: true
+      show-sql: true 
 server:
    port: 8081
 
